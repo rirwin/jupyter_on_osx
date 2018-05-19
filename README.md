@@ -11,8 +11,11 @@ Use brew to installs python2 if you don't have it already.  This also installs x
 brew install python@2
 ```
 
-# Create virtualenv and install jupyter
 The import thing is that this installs python2 and pip (at /usr/local/bin/python2.7 and /usr/local/bin/pip respectively)
+
+# Create virtualenv and install jupyter
+
+Next, create a virtualenv, which is an environment for install python libraries that can be isolated from other parts of your operating system.
 
 ```
 pip install virtualenv
@@ -38,12 +41,15 @@ Make sure the above works then hit `ctrl-c` to close, type 'y' to shutdown serve
 
 # Get dataset from kaggle
 The first link takes you right to the yelp dataset.  You'll need to create an account with kaggle.
+
 https://www.kaggle.com/yelp-dataset/yelp-dataset/downloads/yelp-dataset.zip/6
 
-This takes you to the competion
+This takes you to the competion:
+
 https://www.kaggle.com/yelp-dataset/yelp-dataset/version/6#_=_
 
 This takes you to some really helpful kernels that others have created.  Maybe this one will be there too time permitting.
+
 https://www.kaggle.com/yelp-dataset/yelp-dataset/kernels
 
 After you get the dataset execute the following commands (it is presumed the the dataset zip file is in your 'Downloads' folder
